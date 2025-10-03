@@ -45,7 +45,7 @@ type LivestockDiagnosisProps = {
 }
 
 const LivestockDiagnosis: React.FC<LivestockDiagnosisProps> = ({
-  apiEndpoint = 'http://localhost:5000/api/diagnose',
+  apiEndpoint = '/api/diagnose',
   maxFileSize = 10 * 1024 * 1024, // 10MB default
   allowedFileTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'],
   onAnalysisComplete,
