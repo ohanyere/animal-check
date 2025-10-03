@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import { useState , useEffect} from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useDispatch, useSelector } from "react-redux";

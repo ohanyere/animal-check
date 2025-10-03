@@ -9,7 +9,6 @@ import { ToastContainer } from 'react-toastify'
 import { Toaster } from "react-hot-toast";
 import Navigation from "./Components/Navigation";
 import 'react-toastify/dist/ReactToastify.css'
-import StartupProfilePage from "./Pages/profile";
 import Privateroute from "./Components/Privateroute";
 import Contact from "./Pages/contact";
 import NotFound from "./Pages/notFound";
@@ -36,9 +35,6 @@ const App = () => {
       <Route path="/dash-board" element={<Dashboard />} />
      </Route>
      <Route path="/results/:id" element={<Result/>} />
-     <Route path="/profile" element={<Privateroute />} >
-        <Route path="/profile" element={<StartupProfilePage />} />
-     </Route>
      <Route path="/about" element={<About />} />
      <Route path="/contact" element={<Contact />} />
      <Route path="*" element={<NotFound />} /> 

@@ -441,7 +441,7 @@ const LivestockDiagnosis: React.FC<LivestockDiagnosisProps> = ({
               <span>{t("clear")}</span>
             </button>
             
-            <button
+            <Button
               onClick={handleAnalyze}
               disabled={!selectedFile || isAnalyzing}
               type="button"
@@ -458,7 +458,7 @@ const LivestockDiagnosis: React.FC<LivestockDiagnosisProps> = ({
                   <span>{t("analyzelivestock")}</span>
                 </>
               )}
-            </button>
+            </Button>
           </div>
         </div>
   
