@@ -5,7 +5,6 @@ import Forgetpssword from "./Pages/ForgetPassword";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import About from "./Pages/about";
 import Result from "./Pages/Result/Result";
-import { ToastContainer } from 'react-toastify'
 import { Toaster } from "react-hot-toast";
 import Navigation from "./Components/Navigation";
 import 'react-toastify/dist/ReactToastify.css'
@@ -38,18 +37,10 @@ const App = () => {
      <Route path="/about" element={<About />} />
      <Route path="/contact" element={<Contact />} />
      <Route path="*" element={<NotFound />} /> 
-{/* 
-     <Route path="/upload" element={<Upload />} />
-     <Route path="/result" element={<Result />} />
-     <Route path="/history" element={<History />} />
-    
-
-      */}
       </Routes>
       <Footer />
     </BrowserRouter>
     <Toaster />
-      <ToastContainer />
     </>
   )
 }
