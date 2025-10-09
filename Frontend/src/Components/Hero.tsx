@@ -49,7 +49,7 @@ const Hero = () => {
                     <div className="md:w-3/5 w-full justify-center mx-auto flex gap-5  md:flex-row flex-col">
                         <Button 
                             onClick={handleNavigate}
-                            className="py-4 w-12- md:px-10 bg-[#0A8080] text-white font-semibold space-y-5 rounded-md  capitalize md:text-xl text-sm transition duration-300 hover:bg-[#0A8050]"
+                            className="py-4 w-12- md:px-10 bg-[#0A8050] text-white font-semibold space-y-5 rounded-md  capitalize md:text-xl text-sm transition duration-300 hover:bg-[#0A8080]"
                         > 
                            {t("getstarted")}
                         </Button>
