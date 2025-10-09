@@ -18,7 +18,7 @@ const FAQ: React.FC<FAQProps> = ({ items }) => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto space-y-4  my-8 bg-pink-500">
+    <div className="max-w-3xl mx-auto space-y-4  my-8">
       {items.map((item, index) => (
         <div
           key={index}
