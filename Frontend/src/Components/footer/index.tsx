@@ -11,7 +11,7 @@ const Footer = () => {
     return ( 
 <section className="w-full  bg-dark-green-20 py-8">
     <div className="mx-auto w-[95%]   mt-8 ">
-        <div className=" flex flex-col gap-6 mx-auto min-w-[90%]  ">
+        <div className=" flex flex-col gap-6 mx-auto w-[90%]  ">
             <div className="">
                <div className="flex gap-14 justify-between">
                 <motion.div

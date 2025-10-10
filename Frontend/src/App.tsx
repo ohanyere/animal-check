@@ -16,9 +16,6 @@ import Footer from "./Components/footer";
 
 
 
-
-
-
 const App = () => {
 
   return (
@@ -47,4 +44,3 @@ const App = () => {
 
 export default App
 
-// 
