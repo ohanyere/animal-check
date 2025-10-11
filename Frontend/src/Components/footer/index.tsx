@@ -45,7 +45,7 @@ const Footer = () => {
                     <div className="flex flex-col space-y-4  w-44">
                           
                         <h3 className="font-semibold text-white">{t("Service")}</h3>
-                        <Link to="/contact-us" className="text-white hover:text-orange-200">{t("Diagnosenow")}</Link>
+                        <Link to="/contact-us" className="text-white ">{t("Diagnosenow")}</Link>
                         
                     </div>
                     
