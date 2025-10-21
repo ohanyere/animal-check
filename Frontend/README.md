@@ -1,69 +1,50 @@
-# React + TypeScript + Vite
+# 🤖 AI Livestock Disease Diagnostic App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **AI-powered web application** that helps farmers and veterinarians **detect animal diseases from photos**, understand symptoms, and learn preventive measures — using **OpenAI/Gemini-powered image understanding** and **modern frontend technologies**.  
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://animalcheck.herokuapp.com](https://animalcheck.herokuapp.com)  
+📦 **Repository:** [https://github.com/ohanyere/livestock](https://github.com/ohanyere/animal-check)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Overview  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Farmers often face challenges identifying livestock diseases early, leading to preventable losses.  
+The **AI Livestock Disease Diagnostic App** allows users to:  
+- 🩺 Upload an image of a sick animal  
+- 🤖 Get AI-powered diagnosis using OpenAI or Gemini API  
+- 💡 Receive clear explanations, prevention tips, and treatment recommendations  
+- 🔐 Manage profiles via Firebase authentication  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This app merges **AI reasoning**, **intelligent image analysis**, and a **modern UI** — bringing smart veterinary assistance to the web.  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Features  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+✅ Upload animal images for diagnosis  
+✅ AI detects and explains possible diseases  
+✅ Prevention and treatment suggestions  
+✅ Firebase Authentication (Sign Up / Login)  
+✅ Real-time queries handled with TanStack React Query  
+✅ Tested with Cypress and React Testing Library  
+✅ Deployed on Heroku  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack  
+
+| Area | Technology |
+|------|-------------|
+| **Frontend** | React.js (Vite) + TypeScript |
+| **Data Fetching** | TanStack React Query |
+| **AI Integration** | OpenAI API / Gemini API |
+| **Authentication & Storage** | Firebase Authentication + Firebase Storage |
+| **Testing** | Cypress (E2E), React Testing Library (Unit & Integration) |
+| **Hosting** | Heroku |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 🧩 Project Structure  
+
