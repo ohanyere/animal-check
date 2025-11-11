@@ -11,7 +11,7 @@ import { signOut } from "../../features/auth/authSlice";
 
 const NAV_LINKS = [
   { path: "/about", label: "about" },
-  { path: "/contact", label: "testimonials" },
+  { path: "/dash-board", label: "diagonise" },
   { path: "/contact", label: "contactUs" },
 ];
 

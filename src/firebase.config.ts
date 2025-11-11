@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 const firebaseConfig = {
-  
+  apiKey: "AIzaSyCu9a8_hCMPV93F9g3U3rww2yWjWIVCt-k",
   authDomain: "livestock-disease-detector.firebaseapp.com",
   projectId: "livestock-disease-detector",
   storageBucket: "livestock-disease-detector.firebasestorage.app",

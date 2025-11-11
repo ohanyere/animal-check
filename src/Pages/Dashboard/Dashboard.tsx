@@ -46,7 +46,7 @@ type LivestockDiagnosisProps = {
 
 const LivestockDiagnosis: React.FC<LivestockDiagnosisProps> = ({
   apiEndpoint = '/api/diagnose',
-  maxFileSize = 10 * 1024 * 1024, // 10MB default
+  maxFileSize = 10 * 1024 * 1024,
   allowedFileTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'],
   onAnalysisComplete,
   onError
@@ -152,7 +152,7 @@ const LivestockDiagnosis: React.FC<LivestockDiagnosisProps> = ({
     resetTranscript();
   };
 
-  // Speech recognition functions
+ 
   const startListening = (): void => {
     if (!browserSupportsSpeechRecognition) {
       toast.error("Your browser doesn't support speech recognition");
