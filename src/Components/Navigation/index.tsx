@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useDispatch, useSelector } from "react-redux";
@@ -72,6 +73,7 @@ const Navigation = () => {
   );
 
   const MobileMenu = () => (
+  <AnimatePresence>
     <div className="fixed z-40 top-0 w-[300px] bottom-0 h-full bg-dark-green-20 drop-shadow-xl right-0 text-black">
       <div className="flex justify-end p-12 text-2xl">
         <button onClick={() => setMenuOpen(false)} data-testid="hamburgerClose">
@@ -88,6 +90,7 @@ const Navigation = () => {
         <AuthButton />
       </div>
     </div>
+  </AnimatePresence>
   );
 
   return (

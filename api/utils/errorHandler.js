@@ -1,4 +1,3 @@
-// /api/utils/errorHandler.js
 export function formatError(error) {
   return {
     message: error.message,
